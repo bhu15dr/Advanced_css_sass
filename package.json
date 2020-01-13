@@ -1,0 +1,14 @@
+{
+  "name": "advanced",
+  "version": "1.0.0",
+  "description": "homepage",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css -w"
+  },
+  "author": "bhupender",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

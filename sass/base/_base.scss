@@ -1,0 +1,13 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* if write 10px then it becomes 10px= 1rem   and also if 10/16= 0.625 */
+}
+
+body {
+    box-sizing: border-box; /*to avoid border and padding into the height and width */
+}
